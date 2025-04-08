@@ -1,4 +1,4 @@
-var isSolution = function (s) {
+var lengthOfLastWord = function (s) {
   let arr = s
     .trim()
     .split(" ")
@@ -6,5 +6,3 @@ var isSolution = function (s) {
 
   return arr[arr.length - 1].length;
 };
-
-console.log(isSolution("   fly me   to   the moon  "));
